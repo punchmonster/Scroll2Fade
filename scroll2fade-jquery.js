@@ -10,11 +10,11 @@ $(document).ready(function() {
         //for every element with 'scroll fade in' we calculate viewport and element dimensions
         $fadeIn.each( function(){
                 
-            var bottom_of_element = $(this).position().top + $(this).outerHeight() - $(this).data('offset');
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            var bottomElement = $(this).position().top + $(this).outerHeight() - $(this).data('offset');
+            var bottomWindow = $(window).scrollTop() + $(window).height();
                 
 	        // if we can see the whole element, fade in
-	        if( bottom_of_window > bottom_of_element){
+	        if( bottomWindow > bottomElement ){
 	                    
 	            $(this).animate({'opacity':'1'},1500);
 	                        
