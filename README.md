@@ -16,5 +16,5 @@ you can adjust Y-axis offset by adding a 'data-offset' attribute with an integer
 The example above will fade in the div once the whole div minus 40px off the bottom is shown in the window.
 
 
-Created by Jamie Röling - 5/10/2014 
+Created by Punchmonster - 5/10/2014 
 Released under MIT License
